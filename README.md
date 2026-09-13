@@ -2,6 +2,9 @@
 
 Ultra-HD AI video platform where viewers earn micro-rewards in TRON (USDT/TRX) for watching content. Attention-verified, wallet-integrated, Revolut-ready.
 
+## Live site
+https://danigorbaciov.github.io/look-and-earn-by-dani-gorbaciov/
+
 ## Features
 - AI-generated videos in 4K/8K upscale
 - Social media logos as decorative badges (no API dependency)
