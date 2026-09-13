@@ -1,0 +1,32 @@
+{
+  "name": "look-and-earn-by-dani-gorbaciov",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy:contract": "tronbox migrate --network nile"
+  },
+  "dependencies": {
+    "@bankofai/x402-fetch": "^1.0.0",
+    "@bankofai/x402-tron": "^1.0.0",
+    "@tronweb3/tronwallet-adapter-react-hooks": "^1.0.0",
+    "@tronweb3/tronwallet-adapter-react-ui": "^1.0.0",
+    "@tronweb3/tronwallet-adapters": "^1.0.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tronweb": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.39",
+    "tailwindcss": "3.4.6",
+    "typescript": "5.5.3"
+  }
+}

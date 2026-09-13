@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0f;
+  --accent: #00ff9d;
+  --gold: #ffd700;
+}
+
+body {
+  background: var(--bg);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.video-container {
+  aspect-ratio: 16/9;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0,255,157,0.3);
+}
+
+.badge-social {
+  filter: grayscale(0.3) brightness(1.2);
+  transition: all 0.3s;
+}
+.badge-social:hover {
+  filter: none;
+  transform: scale(1.1);
+}
